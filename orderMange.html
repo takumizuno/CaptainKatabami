@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>トップページ</title>
+<style></style>
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <div class="container">
+      <h1>ユニフォーム受注管理システム</h1>
+    </div>
+  </header>
+<div id="menu">
+<div class="container">
+<div id="page-title">
+<h2>受注管理一覧</h2>
+</div>
+</div>
+</div>
+<div id="main" class="container">
+<table class="list-table">
+
+<tr>
+<th>注文番号</th>
+<th>氏名</th>
+<th>購入商品</th>
+<th>数量</th>
+<th>日付</th>
+<th>---</th>
+<th>入金状況</th>
+<th>発送状況</th>
+<th>詳細</th>
+<th>更新</th>
+</tr>
+
+<tr>
+<td>0001</td>
+<td>神田　研修</td>
+<td>Uniform1</td>
+<td>1</td>
+<td>2022/06/21</td>
+<th>---</th>
+<td>未入金</td>
+<td>未発送</td>
+<td><a href="<%=request.getContextPath()%>/list">詳細</a></td>
+<td><a href="<%=request.getContextPath()%>/list">更新</a></td>
+</tr>
+
+<tr>
+<td>0002</td>
+<td>神田　学校</td>
+<td>Uniform2</td>
+<td>1</td>
+<td>2022/06/21</td>
+<th>---</th>
+<td>未入金</td>
+<td>未発送</td>
+<td><a href="<%=request.getContextPath()%>/list">詳細</a></td>
+<td><a href="<%=request.getContextPath()%>/list">更新</a></td>
+</tr>
+
+<tr>
+<td>0003</td>
+<td>神田　大学</td>
+<td>Uniform3</td>
+<td>1</td>
+<td>2022/06/21</td>
+<th>---</th>
+<td>未入金</td>
+<td>未発送</td>
+<td><a href="<%=request.getContextPath()%>/list">詳細</a></td>
+<td><a href="<%=request.getContextPath()%>/list">更新</a></td>
+</tr>
+		
+</table>
+</div>
+<footer>
+  <div class="container">
+    <h4>Copyright © xxxxxxxxxxxxxxxxxx</h4>
+  </div>
+</footer>
+</div>
+</body>
+</html>
