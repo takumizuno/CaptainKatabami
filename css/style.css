@@ -1,0 +1,20 @@
+/*
+captain KATABAMI css
+*/
+/* common Table*/
+/* common page */
+#common{
+	background-color:#FCF3CF;
+}
+/* admin page */
+#admin{
+	background-color:#FBCCCC;
+}
+/* User page */
+#User{
+	background-color:#FBCCCC;
+}
+/* nonUser page*/
+#nonUser{
+	background-color:#FBCCCC;
+}
